@@ -10,5 +10,8 @@ html(lang='en')
     .container-fluid
       .row
         //- include _banner.jade
-        include _header.jade
-        include _info.jade
+        .col-md-5
+          include _header.jade
+        .col-md-7.rightBar
+          include _info.jade
+          include _portfolio.jade
