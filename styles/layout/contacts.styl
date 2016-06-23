@@ -1,21 +1,29 @@
-.home:before
+.button_send
+  margin-left 1rem
+
+.contactInfo__item
+  display block
+
+.contactInfo__item_adress,
+.contactInfo__item_phone,
+.contactInfo__item_email
+  position relative
+  padding 0 0 2rem 3rem
+
+.contactInfo__item_adress:before,
+.contactInfo__item_phone:before,
+.contactInfo__item_email:before
+  position absolute
+  font-family FontAwesome
+  display inline-block
+  left -1rem
+
+.contactInfo__item_adress:before
   content '\f015'
-  font-family FontAwesome
-  display inline-block
-  margin-left 1.5rem
-  width 2rem
 
-.mobile:before
+.contactInfo__item_phone:before
   content '\f10b'
-  font-family FontAwesome
-  display inline-block
-  margin-left 1.5rem
-  width 2rem
 
- .envelope:before
+ .contactInfo__item_email:before
   content '\f003'
-  font-family FontAwesome
-  display inline-block
-  margin-left 1.5rem
-  width 2rem
 

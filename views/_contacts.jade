@@ -8,16 +8,16 @@
         input(type="email" name="email" placeholder="Email").input
         textarea(placeholder="Message").textarea
       .col-md-5
-        ul
-          li.home
+        ul.contactInfo
+          li.contactInfo__item.contactInfo__item_adress
             | 1234 Somewhere Rd.
             br.
             | Nashville, TN 00000
             br.
             | United States
-          li.mobile 
+          li.contactInfo__item.contactInfo__item_phone
             | 000-000-0000
-          li.envelope
+          li.contactInfo__item.contactInfo__item_email
             a(href="#") hello@untitled.tld
     .row
-      button(type="submit").button Send Message
+      button(type="submit").button.button_send Send Message
