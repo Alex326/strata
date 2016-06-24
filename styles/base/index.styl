@@ -1,9 +1,10 @@
 *
   box-sizing border-box
-  color #a2a2a2
 
-html
-  font 16px 'Tahoma' sans-serif
+body
+  font 300 13pt/1.5 'Source Sans Pro', Helvetica, sans-serif
+  color #a2a2a2
+  margin 0
 
 h2, h3
   color #787878
@@ -27,11 +28,15 @@ ul, li
 
 a
   text-decoration none
+  color #a2a2a2
   &:hover
     color #49bf9d
+  @media screen and (max-width 768px)
+    width 100%
 
-.main
-  padding 6rem 12rem
+strong
+  color #fff
 
-.row
-  padding 1rem 0
+@media screen and (max-width 980px)
+  h2
+    font-size 1.5rem

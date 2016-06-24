@@ -9,9 +9,11 @@ html(lang='en')
   body
     .container-fluid
       .row
-        .col-md-5
-          include _sidebar.jade
-        .col-md-7.main
-          include _info.jade
-          include _portfolio.jade
-          include _contacts.jade
+        .col-md-4
+          include _mainHeader.jade
+        .col-md-offset-5
+          .row.main
+            include _info.jade
+            include _portfolio.jade
+            include _contacts.jade
+            include _mainFooter.jade
